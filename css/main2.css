@@ -1,0 +1,139 @@
+main.css
+* {
+	box-sizing: border-box;
+	box-shadow: 10px rgb(0,0,0)
+}
+
+html {
+	background-image: url(https://ssagga.files.wordpress.com/2012/10/3d-space_bfadfb1b.jpg);
+	background-blend-mode:overlay;
+	background-color: hsla(0,0%,100%,0.15);
+}
+
+element.stlye{
+
+}
+
+.Box {
+	font-family:"Marvel";
+	text-align:center;
+	text-transform: bold;
+	font-size:28px;
+	color:rgb(246,241,249);
+	text-shadow: 2px 2px #ff0000;
+	letter-spacing:10px;
+}
+	.diffuse-light {
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  border: none;
+  font: normal 75px/normal "Bangers", cursive;
+  color: rgba(246,241,249,1);
+  text-align: center;
+  -o-text-overflow: clip;
+  text-overflow: clip;
+  text-shadow: 0px 15px 29px rgba(0,0,0,0.0980392) , 10px 20px 5px rgba(0,0,0,0.0470588) , -10px 20px 5px rgba(0,0,0,0.0470588) ;
+  -webkit-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1) 10ms;
+  -moz-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1) 10ms;
+  -o-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1) 10ms;
+  transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1) 10ms;
+}
+
+	.diffuse-light:hover {
+  text-shadow: 100 -15px 29px rgba(0,0,0,0.0980392) , 10px -20px 5px rgba(0,0,0,0.0470588) , 100px -20px 5px rgba(0,0,0,0.0470588) ;
+  	 filter: none;
+    -webkit-filter: grayscale(100%);
+    -moz-filter:    grayscale(100%);
+    -ms-filter:     grayscale(100%);
+    -o-filter:      grayscale(100%);
+    cursor: pointer;
+}
+}
+
+.div {
+	display:inline-block;
+	width:49%;
+}
+.Box1, 
+	.raven-gallery
+	h1 {
+	text-shadow: 2px 2px #F6F1F9; 
+	display:inline-block;
+	background-image: linear-gradient(bottom, rgb(92,22,152) 24%, rgb(79,23,126) 62%);
+	position:left;
+	text-align:center;
+	font-size:40px;
+	width:400px;
+	padding:20px;
+	color:#000
+}
+	p {
+		font-size:20px;
+		font-color:#9f19f0;
+	}
+.Box2,
+	.flash-gallery
+	h1 
+	h2 {
+	display:inline-block;
+	font-family:"Bangers", sans-serif;
+	font-color:rgb(246,241,249);
+	text-align:center;
+	float:right;
+	width:400px;
+	margin:0;
+	padding:10px;
+	width:400px;
+	letter-spacing:5px;
+}
+.Box3,
+	.SuperMan-gallery {
+	display:inline-block;
+	position:center;
+	text-align:center;
+	margin:0px;
+	padding:0px;
+	width:400px;
+	float:center;
+	letter-spacing: 5px;
+}
+header {
+	font-size:28px;
+	font-family:"Bangers", cursive, Helvetica;
+	text-shadow: 2px 2px #ff0000;
+}
+h1 {
+	text-align:center;
+	font-family:"Bangers", cursive;
+}
+p {
+	font-family:"Marvel", sans-serif;
+	font-size:16px;
+	color:#9f19f0;
+	-webkit-text-stroke-width: 1px;
+	-webkit-text-stroke-color: #e11414;
+}
+.media{
+scroll-behavior: vertical;
+width: 550px; 
+height: 500px; 
+float: justify-left;
+display: inline-block;
+overflow-x: scroll;
+-ms-overflow-x: auto;
+overflow-y: scroll;
+-ms-overflow-y: hidden;
+white-space: nowrap;
+color:black;
+}
+
+    .image
+    {
+    position:center;
+    height: 500px;
+    width: 100%;
+    margin: 5%;
+    text-align:center;
+    border: 7px solid black;
+    }
